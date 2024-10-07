@@ -1,0 +1,19 @@
+.btn {
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: 500 !important;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+
+.btn-primary {
+    box-shadow: 0 4px 10px var(--primary-btn-shadow-color);
+    background-color: var(--primary-bright-red-color);
+    color: var(--neutral-very-pale-red-color);
+}
+
+.btn-secondary {
+    background-color: var(--neutral-very-pale-red-color);
+    color: var(--primary-bright-red-color);
+}

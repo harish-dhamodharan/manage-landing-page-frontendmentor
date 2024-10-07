@@ -1,0 +1,23 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu {
+    color: var(--primary-dark-blue-color);
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.Menu div {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.Menu div:hover {
+    color: var(--neutral-dark-grayish-blue-color);
+    cursor: pointer;
+}

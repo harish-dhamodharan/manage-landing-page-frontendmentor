@@ -1,0 +1,31 @@
+.Home {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10rem;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: url('./../../assets/bg-tablet-pattern.svg'); */
+}
+
+.Hero {
+    font-size: 4rem;
+    font-weight: 700;
+    width: 80%;
+    color: var(--primary-dark-blue-color);
+}
+
+.Hero-description {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    color: var(--neutral-dark-grayish-blue-color);
+    width: 58%;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.Illustration {
+    height: 100%;
+    width: 100%;
+    margin-left: 1rem;
+}
