@@ -19,7 +19,7 @@ p {
     grid-area: point-heading;
 }
 
-.Wrapper {
+.Wrapper-point {
     margin-bottom: 2rem;
     display: grid;
     grid-template-areas: "point-heading point-heading"

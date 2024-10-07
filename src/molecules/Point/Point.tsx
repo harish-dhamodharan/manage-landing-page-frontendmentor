@@ -4,7 +4,7 @@ import "./Point.css";
 
 const Point: FC<IPoint> = ({ point, heading, description }) => {
   return (
-    <div className="Wrapper">
+    <div className="Wrapper-point">
       <div className="point-heading">
         <p className="point">{point}</p>
         <div>

@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    background-color: var(--neutral-very-light-gray-color);
+    padding: 0 1.5rem 3rem 1.5rem;
+}
+
+.image-container {
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+}
+
+.Hero-card {
+    transform: translateY(-100%);
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--primary-dark-blue-color);
+}
