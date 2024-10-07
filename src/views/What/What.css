@@ -1,0 +1,29 @@
+.What {
+    padding: 10rem 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Hero {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-dark-blue-color);
+}
+
+.Hero-description {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    color: var(--neutral-dark-grayish-blue-color);
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.leftImageBackground {
+    display: block;
+    position: absolute;
+    left: -25%;
+    top: 145%;
+    content: url('./../../assets/bg-tablet-pattern.svg');
+  }
+  

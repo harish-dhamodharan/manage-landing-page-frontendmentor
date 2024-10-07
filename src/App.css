@@ -18,11 +18,14 @@
   --neutral-very-light-gray-color: hsl(0, 0%, 98%);
 }
 
-.App {
-  background-image: url('./assets/bg-tablet-pattern.svg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position-x: 115%;
-  background-position-y: -110%;
-  height: 100dvh;
+.rightImageBackground {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  right: -5%;
+  top: -8%;
+  width: auto;
+  height: auto;
+  content: url('./assets/bg-tablet-pattern.svg');
+  overflow: hidden;
 }
