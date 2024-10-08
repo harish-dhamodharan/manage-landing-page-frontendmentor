@@ -1,14 +1,17 @@
 .btn {
     font-size: 14px;
     border-radius: 50px;
-    font-weight: 500 !important;
+    font-weight: 700;
     border: none;
     cursor: pointer;
     padding: 1rem 2rem;
 }
 
-.btn-primary {
+.btn-primary-shadow {
     box-shadow: 0 4px 10px var(--primary-btn-shadow-color);
+}
+
+.btn-primary {
     background-color: var(--primary-bright-red-color);
     color: var(--neutral-very-pale-red-color);
 }

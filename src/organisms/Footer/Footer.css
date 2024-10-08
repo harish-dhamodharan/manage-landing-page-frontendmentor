@@ -1,0 +1,67 @@
+.Footer {
+    height: 150px;
+    background-color: var(--neutral-very-dark-blue-color);
+    padding: 5rem 10rem;
+    color: var(--neutral-very-light-gray-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.second, .third {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    color: var(--neutral-very-light-gray-color);
+}
+
+.second p, .third p {
+    font-size: 1.1rem;
+}
+
+.logos {
+    display: flex;
+    gap: 1rem;
+}
+
+.logo-color {
+    fill: var(--neutral-very-light-gray-color);
+    transform: scale(1.2);
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.fourth .form {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fourth p {
+    color: var(--neutral-dark-grayish-blue-color);
+}
+.email {
+    width: 215px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    padding: 0.5rem 1rem;
+}

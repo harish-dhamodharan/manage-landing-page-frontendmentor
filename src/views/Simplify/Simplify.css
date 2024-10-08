@@ -1,0 +1,29 @@
+.Simplify-Wrapper {
+    position: relative;
+}
+
+.Simplify {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 270px;
+    background-color: var(--primary-bright-red-color);
+    padding: 0 10rem;
+}
+
+.Hero-Simplify {
+    width: 50%;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--neutral-very-pale-red-color);
+}
+
+.bg {
+    position: absolute;
+    background-image: url(./../../assets/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    transform: translateX(28%) translateY(-31%) scale(1.2);
+    width: 100dvw;
+    height: 400px;
+}

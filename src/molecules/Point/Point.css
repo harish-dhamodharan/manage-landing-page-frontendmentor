@@ -4,10 +4,9 @@ h3 {
     color: var(--primary-dark-blue-color);
 }
 
-p {
+.description p {
     font-size: 1.2rem;
     line-height: 2rem;
-    /* text-align: justify; */
     color: var(--neutral-dark-grayish-blue-color);
 }
 
