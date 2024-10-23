@@ -6,6 +6,7 @@ import instagramIcon from "./../../assets/icon-instagram.svg";
 import pinterstIcon from "./../../assets/icon-pinterest.svg";
 import Button from "../../atoms/Button/Button";
 import { useCallback } from "react";
+import Link from "../../atoms/Link/Link";
 
 const Footer = () => {
   const handleOnClickEmailGo = useCallback(
@@ -44,15 +45,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="second">
-        <p>Home</p>
-        <p>Pricing</p>
-        <p>Products</p>
-        <p>About Us</p>
+        <Link display="Home" />
+        <Link display="Pricing" />
+        <Link display="Products" />
+        <Link display="About Us" />
       </div>
       <div className="third">
-        <p>Careers</p>
-        <p>Community</p>
-        <p>Privacy Policy</p>
+        <Link display="Careers" />
+        <Link display="Community" />
+        <Link display="Privacy Policy" />
         <p>&nbsp;</p>
       </div>
       <div className="fourth">

@@ -21,3 +21,12 @@
     color: var(--neutral-dark-grayish-blue-color);
     cursor: pointer;
 }
+
+@media (max-width: 50em) {
+    .Menu {
+        display: none;
+    }
+    .menu-button {
+        display: none;
+    }
+}

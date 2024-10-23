@@ -1,0 +1,10 @@
+.Link {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--neutral-very-light-gray-color);
+    font-size: 1.1rem;
+}
+
+.Link:hover {
+    color: var(--primary-bright-red-color);
+}

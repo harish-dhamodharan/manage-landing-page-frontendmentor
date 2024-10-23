@@ -2,3 +2,10 @@
     padding: 5rem 10rem;
     background-image: url('./../../assets/bg-simplify-section-desktop.svg');
 }
+
+@media (max-width: 50em) {
+    .Header {
+        padding: 2rem;
+    }
+    
+}

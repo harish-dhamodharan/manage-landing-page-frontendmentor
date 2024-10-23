@@ -20,3 +20,7 @@
     background-color: var(--neutral-very-pale-red-color);
     color: var(--primary-bright-red-color);
 }
+.btn-primary:hover, .btn-secondary:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

@@ -20,11 +20,13 @@ const NavBar = () => {
           <div key={index}>{menuItem}</div>
         ))}
       </div>
-      <Button
-        name={GET_STARTED_BUTTON}
-        type="primary"
-        onClick={handleGetStartedOnClick}
-      />
+      <div className="menu-button">
+        <Button
+          name={GET_STARTED_BUTTON}
+          type="primary"
+          onClick={handleGetStartedOnClick}
+        />
+      </div>
     </nav>
   );
 };

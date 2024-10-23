@@ -16,6 +16,8 @@
   --neutral-very-dark-blue-color: hsl(233, 12%, 13%);
   --neutral-very-pale-red-color: hsl(13, 100%, 96%);
   --neutral-very-light-gray-color: hsl(0, 0%, 98%);
+
+  --mobile-max-width: 375px;
 }
 
 .rightImageBackground {
@@ -28,4 +30,10 @@
   height: auto;
   content: url('./assets/bg-tablet-pattern.svg');
   overflow: hidden;
+}
+
+@media (max-width: 50em) {
+  :root {
+    font-size: 14px;
+  }
 }
